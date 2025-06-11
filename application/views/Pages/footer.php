@@ -2,7 +2,7 @@
         <div class="section py-5">
             <div class="d-flex flex-column gap-5 p-5 bg-gradient-footer rounded-4 accent-primary">
                 <div class="d-flex flex-xl-row flex-column gap-3 justify-content-between align-items-center">
-                    <img src="<?php echo base_url('/assets/image/logo.png')?>" alt="" class="img-fluid" width="265">
+                    <img src="<?php echo base_url('assets/image/logo.png')?>" alt="" class="img-fluid" width="265">
                     <div class="d-flex flex-xl-row flex-column gap-4">
                         <div>
                             <a href="#" class="link d-flex flex-row gap-3 align-items-center">
@@ -105,17 +105,17 @@
 
 
     <!-- Scripts -->
-    <script src="<?php echo base_url('/assets/js/vendor/jquery.min.js')?>"></script>
-    <script src="<?php echo base_url('/assets/js/vendor/bootstrap.bundle.min.js')?>"></script>
-    <script src="<?php echo base_url('/assets/js/vendor/swiper-bundle.min.js')?>"></script>
-    <script src="<?php echo base_url('/assets/js/script.js')?>"></script>
-    <script src="<?php echo base_url('/assets/js/swiper-script.js')?>"></script>
-    <script src="<?php echo base_url('/assets/js/submit-form.js')?>"></script>
-    <script src="<?php echo base_url('/assets/js/vendor/isotope.pkgd.min.js')?>"></script>
-    <script src="<?php echo base_url('/assets/js/video_embedded.js')?>"></script>
-    <script src="<?php echo base_url('/assets/js/vendor/fslightbox.js')?>"></script>
+    <script src="<?php echo base_url('assets/js/vendor/jquery.min.js')?>"></script>
+    <script src="<?php echo base_url('assets/js/vendor/bootstrap.bundle.min.js')?>"></script>
+    <script src="<?php echo base_url('assets/js/vendor/swiper-bundle.min.js')?>"></script>
+    <script src="<?php echo base_url('assets/js/script.js')?>"></script>
+    <script src="<?php echo base_url('assets/js/swiper-script.js')?>"></script>
+    <script src="<?php echo base_url('assets/js/submit-form.js')?>"></script>
+    <script src="<?php echo base_url('assets/js/vendor/isotope.pkgd.min.js')?>"></script>
+    <script src="<?php echo base_url('assets/js/video_embedded.js')?>"></script>
+    <script src="<?php echo base_url('assets/js/vendor/fslightbox.js')?>"></script>
     <script
-        src="<?php echo base_url('/assets/cdn.jsdelivr.net/gh/shishirraven/animate-on-scroll%40v1.0/oyethemes_onscroll_animation.js')?>"></script>
+        src="<?php echo base_url('assets/cdn.jsdelivr.net/gh/shishirraven/animate-on-scroll%40v1.0/oyethemes_onscroll_animation.js')?>"></script>
 </body>
 
 

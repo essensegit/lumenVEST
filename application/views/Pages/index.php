@@ -2,7 +2,7 @@
         <!-- Banner -->
         <div class="section pt-5 position-relative">
             <div class="mx-auto" style="max-width: 1816px;">
-                <img src="<?php echo base_url('/assets/image/img1.png')?>" class="img-fluid rounded-4 w-100" style="height: 100vh;" alt="">
+                <img src="<?php echo base_url('assets/image/img1.png')?>" class="img-fluid rounded-4 w-100" style="height: 100vh;" alt="">
             </div>
             <div class="mx-xl-5 overflow-visible position-absolute bottom-0 start-0 end-0">
                 <div class="d-flex flex-xl-row flex-column gap-3" style="padding-bottom: 6em;">
@@ -28,13 +28,13 @@
                                 <div class="d-flex flex-row gap-3 align-items-center">
                                     <div class=" d-flex flex-row customer-container">
                                         <div class="customer-item">
-                                            <img src=<?php echo base_url('/assets/"image/img29.png')?>" class="img-fluid" alt="">
+                                            <img src=<?php echo base_url('assets/"image/img29.png')?>" class="img-fluid" alt="">
                                         </div>
                                         <div class="customer-item">
-                                            <img src="<?php echo base_url('/assets/image/img30.png')?>" class="img-fluid" alt="">
+                                            <img src="<?php echo base_url('assets/image/img30.png')?>" class="img-fluid" alt="">
                                         </div>
                                         <div class="customer-item">
-                                            <img src="<?php echo base_url('/assets/image/img31.png')?>" class="img-fluid" alt="">
+                                            <img src="<?php echo base_url('assets/image/img31.png')?>" class="img-fluid" alt="">
                                         </div>
                                     </div>
                                     <div class="d-flex flex-column">
@@ -61,7 +61,7 @@
                 <div class="row row-cols-xl-2 row-cols-1">
                     <div class="col mb-3 scrollanimation animated fadeInLeft adr-7">
                         <div class="position-relative h-100">
-                            <img src="<?php echo base_url('/assets/image/img2.png')?>" class="img-fluid rounded-4 h-100 w-100" style="aspect-ratio: 1/1;"
+                            <img src="<?php echo base_url('assets/image/img2.png')?>" class="img-fluid rounded-4 h-100 w-100" style="aspect-ratio: 1/1;"
                                 alt="">
                             <div class="bg-accent-primary pt-4 pe-4 text-center position-absolute bottom-0 start-0"
                                 style="border-top-right-radius: 20px;">
@@ -289,7 +289,7 @@
                                     <h5>Financial Planning</h5>
                                     <p>Offering tailored financial advice for clients, covering retirement planning.</p>
                                     <div class="position-relative h-100">
-                                        <img src="<?php echo base_url('/assets/image/img3.png')?>" class="img-fluid h-100 w-100"
+                                        <img src="<?php echo base_url('assets/image/img3.png')?>" class="img-fluid h-100 w-100"
                                             style="aspect-ratio: 3/2; border-radius: 10px;" alt="">
                                         <div class="custom-border-2 position-absolute bottom-0 end-0">
                                             <div class="d-flex justify-content-center">
@@ -306,7 +306,7 @@
                                     <h5>Portfolio Management</h5>
                                     <p>Helps individuals and institutions manage their investment portfolios</p>
                                     <div class="position-relative h-100">
-                                        <img src="<?php echo base_url('/assets/image/img4.png')?>" class="img-fluid h-100 w-100"
+                                        <img src="<?php echo base_url('assets/image/img4.png')?>" class="img-fluid h-100 w-100"
                                             style="aspect-ratio: 3/2; border-radius: 10px;" alt="">
                                         <div class="custom-border-2 position-absolute bottom-0 end-0">
                                             <div class="d-flex justify-content-center">
@@ -323,7 +323,7 @@
                                     <h5>Wealth Management</h5>
                                     <p>Managing all aspects of a client's wealth, including investments, taxes, etc</p>
                                     <div class="position-relative h-100">
-                                        <img src="<?php echo base_url('/assets/image/img34.png')?>" class="img-fluid h-100 w-100"
+                                        <img src="<?php echo base_url('assets/image/img34.png')?>" class="img-fluid h-100 w-100"
                                             style="aspect-ratio: 3/2; border-radius: 10px;" alt="">
                                         <div class="custom-border-2 position-absolute bottom-0 end-0">
                                             <div class="d-flex justify-content-center">
@@ -340,7 +340,7 @@
                                     <h5>Real Estate Investment</h5>
                                     <p>Providing opportunities and advice for investing in real estate</p>
                                     <div class="position-relative h-100">
-                                        <img src="<?php echo base_url('/assets/image/img3.png')?>" class="img-fluid h-100 w-100"
+                                        <img src="<?php echo base_url('assets/image/img3.png')?>" class="img-fluid h-100 w-100"
                                             style="aspect-ratio: 3/2; border-radius: 10px;" alt="">
                                         <div class="custom-border-2 position-absolute bottom-0 end-0">
                                             <div class="d-flex justify-content-center">
@@ -374,7 +374,7 @@
                                     <div class="swiper-slide">
                                         <div class="card card-overlay gap-3">
                                             <div class="card-image overflow-hidden rounded-0 position-relative">
-                                                <img src="<?php echo base_url('/assets/image/img11.png')?>" alt="" class="img-fluid rounded-4"
+                                                <img src="<?php echo base_url('assets/image/img11.png')?>" alt="" class="img-fluid rounded-4"
                                                     style="aspect-ratio: 9/10;">
                                                 <div class="card-body">
                                                     <div
@@ -408,7 +408,7 @@
                                     <div class="swiper-slide">
                                         <div class="card card-overlay gap-3">
                                             <div class="card-image overflow-hidden rounded-0 position-relative">
-                                                <img src="<?php echo base_url('/assets/image/img10.png')?>" alt="" class="img-fluid rounded-4"
+                                                <img src="<?php echo base_url('assets/image/img10.png')?>" alt="" class="img-fluid rounded-4"
                                                     style="aspect-ratio: 9/10;">
                                                 <div class="card-body">
                                                     <div
@@ -442,7 +442,7 @@
                                     <div class="swiper-slide">
                                         <div class="card card-overlay gap-3">
                                             <div class="card-image overflow-hidden rounded-0 position-relative">
-                                                <img src="<?php echo base_url('/assets/image/img7.png')?>" alt="" class="img-fluid rounded-4"
+                                                <img src="<?php echo base_url('assets/image/img7.png')?>" alt="" class="img-fluid rounded-4"
                                                     style="aspect-ratio: 9/10;">
                                                 <div class="card-body">
                                                     <div
@@ -476,7 +476,7 @@
                                     <div class="swiper-slide">
                                         <div class="card card-overlay gap-3">
                                             <div class="card-image overflow-hidden rounded-0 position-relative">
-                                                <img src="<?php echo base_url('/assets/image/img6.png')?>" alt="" class="img-fluid rounded-4"
+                                                <img src="<?php echo base_url('assets/image/img6.png')?>" alt="" class="img-fluid rounded-4"
                                                     style="aspect-ratio: 9/10;">
                                                 <div class="card-body">
                                                     <div
@@ -1050,7 +1050,7 @@
                                 </div>
                                 <div class="d-flex flex-xl-row flex-column gap-3 align-items-center">
                                     <div class="customer-item border-0">
-                                        <img src="<?php echo base_url('/assets/image/img20.jpg')?>" class="img-fluid" alt="">
+                                        <img src="<?php echo base_url('assets/image/img20.jpg')?>" class="img-fluid" alt="">
                                     </div>
                                     <div class="d-flex flex-column text-xl-start text-center">
                                         <h5 class="m-0">Sarah Taylor</h5>
@@ -1070,7 +1070,7 @@
                                 </div>
                                 <div class="d-flex flex-xl-row flex-column gap-3 align-items-center">
                                     <div class="customer-item border-0">
-                                        <img src="<?php echo base_url('/assets/image/img22.jpg')?>" class="img-fluid" alt="">
+                                        <img src="<?php echo base_url('assets/image/img22.jpg')?>" class="img-fluid" alt="">
                                     </div>
                                     <div class="d-flex flex-column text-xl-start text-center">
                                         <h5 class="m-0">Michael James</h5>
@@ -1091,7 +1091,7 @@
                                 </div>
                                 <div class="d-flex flex-xl-row flex-column gap-3 align-items-center">
                                     <div class="customer-item border-0">
-                                        <img src="<?php echo base_url('/assets/image/img23.jpg')?>" class="img-fluid" alt="">
+                                        <img src="<?php echo base_url('assets/image/img23.jpg')?>" class="img-fluid" alt="">
                                     </div>
                                     <div class="d-flex flex-column text-xl-start text-center">
                                         <h5 class="m-0">David Christ</h5>
@@ -1112,7 +1112,7 @@
                                 </div>
                                 <div class="d-flex flex-xl-row flex-column gap-3 align-items-center">
                                     <div class="customer-item border-0">
-                                        <img src="<?php echo base_url('/assets/image/img21.jpg')?>" class="img-fluid" alt="">
+                                        <img src="<?php echo base_url('assets/image/img21.jpg')?>" class="img-fluid" alt="">
                                     </div>
                                     <div class="d-flex flex-column text-xl-start text-center">
                                         <h5 class="m-0">Emily Mark</h5>
@@ -1133,7 +1133,7 @@
                                 </div>
                                 <div class="d-flex flex-xl-row flex-column gap-3 align-items-center">
                                     <div class="customer-item border-0">
-                                        <img src="<?php echo base_url('/assets/image/img23.jpg')?>" class="img-fluid" alt="">
+                                        <img src="<?php echo base_url('assets/image/img23.jpg')?>" class="img-fluid" alt="">
                                     </div>
                                     <div class="d-flex flex-column text-xl-start text-center">
                                         <h5 class="m-0">James Smith</h5>
@@ -1155,7 +1155,7 @@
                 <div class="row row-cols-xl-2 row-cols-1">
                     <div class="col mb-3 scrollanimation animated fadeInLeft adr-7">
                         <div class="position-relative h-100">
-                            <img src="<?php echo base_url('/assets/image/img14.png')?>" class="img-fluid rounded-4 h-100 w-100"
+                            <img src="<?php echo base_url('assets/image/img14.png')?>" class="img-fluid rounded-4 h-100 w-100"
                                 style="aspect-ratio: 9/10;" alt="">
                             <div class="custom-border-2 accent position-absolute bottom-0 end-0">
                                 <a href="#" class="icon-box-2">
@@ -1267,7 +1267,7 @@
                 <div class="row row-cols-xl-2 row-cols-1">
                     <div class="col mb-3">
                         <div class="card d-flex flex-column gap-4">
-                            <img src="<?php echo base_url('/assets/image/img16.png')?>" alt="" class="img-fluid rounded-4" style="aspect-ratio: 5/3;">
+                            <img src="<?php echo base_url('assets/image/img16.png')?>" alt="" class="img-fluid rounded-4" style="aspect-ratio: 5/3;">
                             <div class="d-flex flex-column gap-2 scrollanimation animated fadeIn adr-7">
                                 <h4 class="black font-1">2025 Investment Trends: What's Next for the Global Markets?
                                 </h4>
@@ -1287,7 +1287,7 @@
                     </div>
                     <div class="col mb-3">
                         <div class="card d-flex flex-column gap-4">
-                            <img src="<?php echo base_url('/assets/image/img17.png')?>" alt="" class="img-fluid rounded-4" style="aspect-ratio: 5/3;">
+                            <img src="<?php echo base_url('assets/image/img17.png')?>" alt="" class="img-fluid rounded-4" style="aspect-ratio: 5/3;">
                             <div class="d-flex flex-column gap-2 scrollanimation animated fadeIn adr-7">
                                 <h4 class="black font-1">How to Create a Successful Investment Plan for Retirement
                                 </h4>

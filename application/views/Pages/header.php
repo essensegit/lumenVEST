@@ -6,10 +6,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="<?php echo base_url('/assets/css/style.css')?>">
-    <link rel="stylesheet" href="<?php echo base_url('/assets/cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css')?>">
-    <link rel="stylesheet" href="<?php echo base_url('/assets/cdn.jsdelivr.net/gh/shishirraven/animate-on-scroll%40v1.2/animation_utility.css')?>">
-    <link rel="icon" type="image/x-icon" href="<?php echo base_url('/assets/image/xicon.png')?>">
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/style.css')?>">
+    <link rel="stylesheet" href="<?php echo base_url('assets/cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css')?>">
+    <link rel="stylesheet" href="<?php echo base_url('assets/cdn.jsdelivr.net/gh/shishirraven/animate-on-scroll%40v1.2/animation_utility.css')?>">
+    <link rel="icon" type="image/x-icon" href="<?php echo base_url('assets/image/xicon.png')?>">
     <title>LumenVEST - Homepage</title>
 </head>
 
@@ -19,7 +19,7 @@
         <nav class="navbar navbar-expand-xl mx-5">
             <div class="container-fluid">
                 <div class="logo-container">
-                    <a class="navbar-brand" href="#"><img src="<?php echo base_url('/assets/image/logo.png')?>" alt="" class="img-fluid w-100"></a>
+                    <a class="navbar-brand" href="#"><img src="<?php echo base_url('assets/image/logo.png')?>" alt="" class="img-fluid w-100"></a>
                 </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fa-solid fa-bars-staggered accent-color-2"></i>
