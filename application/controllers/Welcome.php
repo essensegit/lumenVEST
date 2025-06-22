@@ -27,8 +27,6 @@ class Welcome extends CI_Controller {
 	}
 	public function signup()
 	{
-		public function signup()
-{
     $this->load->library('form_validation');
     $this->load->model('User_model');
 
