@@ -12,6 +12,12 @@ class Welcome extends CI_Controller {
 	}
 	public function signup()
 	{
+		// Add this near the top of your signup() method:
+$query = $this->db->query("SELECT * FROM users");
+echo "<pre>";
+print_r($query->result());
+echo "</pre>";
+
     $this->load->library('form_validation');
     $this->load->model('User_model');
 
