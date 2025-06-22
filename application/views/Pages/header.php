@@ -33,34 +33,20 @@
                             <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 About Us
                             </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="about.html">About Us</a></li>
-                                <li><a class="dropdown-item" href="team.html">Our Team</a></li>
-                            </ul>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Services
                             </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="services.html">Services</a></li>
-                                <li><a class="dropdown-item" href="service_detail.html">Service Details</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Pages
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="faq.html">FAQs</a></li>
-                                <li><a class="dropdown-item" href="price_plan.html">Pricing Plan</a></li>
-                                <li><a class="dropdown-item" href="404.html">404 Error</a></li>
-                                <li><a class="dropdown-item" href="blog.html">Latest Article</a></li>
-                                <li><a class="dropdown-item" href="single_blog.html">Single Post</a></li>
-                            </ul>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link " href="contact.html">Contact Us</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#<?php echo base_url('/signup.php')?>" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Account
+                            </a>
                         </li>
                     </ul>
                 </div>
