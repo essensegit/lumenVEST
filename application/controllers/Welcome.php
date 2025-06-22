@@ -31,6 +31,7 @@ class Welcome extends CI_Controller {
     $this->load->model('User_model');
 
     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+		echo "Form submitted<br>";
         // Validation
         $this->form_validation->set_rules('email', 'Email', 'required|valid_email|is_unique[users.email]');
         $this->form_validation->set_rules('firstname', 'First Name', 'required');
@@ -40,6 +41,7 @@ class Welcome extends CI_Controller {
         $this->form_validation->set_rules('confirm_password', 'Confirm Password', 'required|matches[password]');
 
         if ($this->form_validation->run()) {
+			echo "Validation passed<br>";
             $userData = [
                 'email' => $this->input->post('email'),
                 'firstname' => $this->input->post('firstname'),
@@ -49,12 +51,17 @@ class Welcome extends CI_Controller {
             ];
 
             if ($this->User_model->insert_user_with_wallet($userData)) {
+				echo "User inserted!<br>";
                 $this->session->set_flashdata('success', 'Signup successful! You can now login.');
                 redirect('signup');
             } else {
+				 echo "Insert failed<br>";
                 $this->session->set_flashdata('error', 'Something went wrong. Try again.');
-            }
+            } 
+		} else {
+            echo "Validation failed<br>";
         }
+        
     }
 		$this->load->view('Pages/header');
 		$this->load->view('Pages/signup');

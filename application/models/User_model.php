@@ -11,6 +11,12 @@ class User_model extends CI_Model {
         $this->db->insert('users', $userData);
         $user_id = $this->db->insert_id();
 
+        // Just for debug:
+        if (!$user_id) {
+            log_message('error', 'User insert failed.');
+            return false;
+        }
+
         // Insert wallet for the new user
         $this->db->insert('wallets', [
             'user_id' => $user_id,

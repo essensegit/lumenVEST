@@ -31,6 +31,8 @@
                             </div>
                         </div>
                         <div>
+                                                        <?php echo validation_errors('<div class="alert alert-warning">', '</div>'); ?>
+
                             <?php if ($this->session->flashdata('success')): ?>
                                 <div class="alert alert-success"><?php echo $this->session->flashdata('success'); ?></div>
                             <?php endif; ?>
@@ -39,7 +41,7 @@
                                 <div class="alert alert-danger"><?php echo $this->session->flashdata('error'); ?></div>
                             <?php endif; ?>
 
-                            <?php echo validation_errors('<div class="alert alert-warning">', '</div>'); ?>
+                            
                             <form action="<?php echo base_url('signup'); ?>" method="POST" class="d-flex flex-column h-100 justify-content-center w-100 needs-validation form" novalidate>
     
                                 <!-- Hidden field (optional, for form logic) -->
