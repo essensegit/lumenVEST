@@ -31,7 +31,60 @@
                             </div>
                         </div>
                         <div>
-                            <form action="" method="POST" class="d-flex flex-column h-100 justify-content-center w-100 needs-validation form"
+                            <?php if ($this->session->flashdata('success')): ?>
+                                <div class="alert alert-success"><?php echo $this->session->flashdata('success'); ?></div>
+                            <?php endif; ?>
+
+                            <?php if ($this->session->flashdata('error')): ?>
+                                <div class="alert alert-danger"><?php echo $this->session->flashdata('error'); ?></div>
+                            <?php endif; ?>
+
+                            <?php echo validation_errors('<div class="alert alert-warning">', '</div>'); ?>
+                            <form action="<?php echo base_url('signup'); ?>" method="POST" class="d-flex flex-column h-100 justify-content-center w-100 needs-validation form" novalidate>
+    
+                                <!-- Hidden field (optional, for form logic) -->
+                                <input type="hidden" name="action" value="subscribe">
+
+                                <div class="input-group gap-3 mb-xl-2 mb-0 position-relative custom-input-group">
+                                    <input type="email" class="form-control subscribe custom-email-input"
+                                        placeholder="E-mail" name="email" required>
+                                </div>
+
+                                <div class="input-group gap-3 mb-xl-2 mb-0 position-relative custom-input-group">
+                                    <input type="text" class="form-control subscribe custom-email-input"
+                                        placeholder="First Name" name="firstname" required>
+                                </div>
+
+                                <div class="input-group gap-3 mb-xl-2 mb-0 position-relative custom-input-group">
+                                    <input type="text" class="form-control subscribe custom-email-input"
+                                        placeholder="Last Name" name="lastname" required>
+                                </div>
+
+                                <div class="input-group gap-3 mb-xl-2 mb-0 position-relative custom-input-group">
+                                    <input type="text" class="form-control subscribe custom-email-input"
+                                        placeholder="Phone Number" name="phonenumber" required>
+                                </div>
+
+                                <div class="input-group gap-3 mb-xl-2 mb-0 position-relative custom-input-group">
+                                    <input type="password" class="form-control subscribe custom-email-input"
+                                        placeholder="Password" name="password" required>
+                                </div>
+
+                                <div class="input-group gap-3 mb-xl-2 mb-0 position-relative custom-input-group">
+                                    <input type="password" class="form-control subscribe custom-email-input"
+                                        placeholder="Confirm Password" name="confirm_password" required>
+                                </div>
+
+                                <button class="btn btn-accent d-flex flex-row gap-2 submit_subscribe rounded-pill custom-submit-button" type="submit">
+                                    <span>Sign Up</span>
+                                    <i class="rtmicon rtmicon-arrow-up-right fw-bold"></i>
+                                </button>
+
+                                <div class="invalid-feedback text-white">
+                                    Please provide a valid email format (e.g., user@example.com).
+                                </div>
+                            </form>
+                            <!-- <form action="" method="POST" class="d-flex flex-column h-100 justify-content-center w-100 needs-validation form"
                                 novalidate>
                                 <input type="text" name="action" value="subscribe" hidden>
                                 <div class="input-group gap-3 mb-xl-2 mb-0 position-relative custom-input-group">
@@ -74,8 +127,8 @@
                                         Please provide a valid email format (e.g., user@example.com).
                                     </div>
                                 </div>
-                            </form>
-
+                            </form> -->
+                            
                         </div>
                     </div>
                 </div>
