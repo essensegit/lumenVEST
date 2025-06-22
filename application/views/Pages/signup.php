@@ -56,12 +56,12 @@
 
                                 <div class="input-group gap-3 mb-xl-2 mb-0 position-relative custom-input-group">
                                     <input type="password" class="form-control subscribe custom-email-input"
-                                        placeholder="E-mail" name="email" required>
+                                        placeholder="Password" name="password" required>
                                 </div>
 
                                 <div class="input-group gap-3 mb-xl-2 mb-0 position-relative custom-input-group">
                                     <input type="text" class="form-control subscribe custom-email-input"
-                                        placeholder="E-mail" name="email" required>
+                                        placeholder="Confirm Password" name="Confirm Password" required>
                                 </div>
 
                                     <button

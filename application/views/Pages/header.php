@@ -44,7 +44,7 @@
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link" href="#<?php echo base_url('/signup.php')?>" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link" href="<?php echo base_url('signup.php')?>" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Account
                             </a>
                         </li>
