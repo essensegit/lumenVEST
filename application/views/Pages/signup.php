@@ -60,7 +60,7 @@
                                 </div>
 
                                 <div class="input-group gap-3 mb-xl-2 mb-0 position-relative custom-input-group">
-                                    <input type="text" class="form-control subscribe custom-email-input"
+                                    <input type="password" class="form-control subscribe custom-email-input"
                                         placeholder="Confirm Password" name="Confirm Password" required>
                                 </div>
 
