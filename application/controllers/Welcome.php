@@ -10,9 +10,14 @@ class Welcome extends CI_Controller {
 		$this->load->view('Pages/index');
 		$this->load->view('Pages/footer');	
 	}
+
+
+
+	
 	public function signup()
 	{
 		// Add this near the top of your signup() method:
+		$this->load->database();
 $query = $this->db->query("SELECT * FROM users");
 echo "<pre>";
 print_r($query->result());
