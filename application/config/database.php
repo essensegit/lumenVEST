@@ -75,11 +75,11 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'sql.freedb.tech',
-	'username' => 'freedb_lumenVEST',
-	'password' => 'm%dWX%7xCp9HZAc',
-	'database' => 'freedb_lumenVEST',
-	'dbdriver' => 'mysqli',
+	'hostname' => 'db.ggvmcuaczkbkemuljmdt.supabase.co',
+	'username' => 'postgres',
+	'password' => 'Vincent@09094009711',
+	'database' => 'postgres',
+	'dbdriver' => 'postgre',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),

@@ -4,6 +4,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Welcome extends CI_Controller {
 
+	public function test_connection()
+{
+    $this->load->database();
+    $query = $this->db->query("SELECT NOW() as connected_time");
+    echo "<pre>";
+    print_r($query->result());
+    echo "</pre>";
+}
+
 	public function index()
 	{
 		$this->load->view('Pages/header');
