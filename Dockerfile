@@ -1,10 +1,10 @@
 FROM php:8.2-apache
 
-# Install required PHP extensions
+# Install required PHP extensions (MySQL + PostgreSQL + image + others)
 RUN apt-get update && apt-get install -y \
-    zip unzip libpng-dev libjpeg-dev libfreetype6-dev libonig-dev libxml2-dev \
+    zip unzip libpng-dev libjpeg-dev libfreetype6-dev libonig-dev libxml2-dev libpq-dev \
     && docker-php-ext-configure gd --with-freetype --with-jpeg \
-    && docker-php-ext-install gd pdo pdo_mysql mysqli
+    && docker-php-ext-install gd pdo pdo_mysql mysqli pgsql pdo_pgsql
 
 # Enable Apache mod_rewrite
 RUN a2enmod rewrite
